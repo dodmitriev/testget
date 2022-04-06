@@ -18,7 +18,7 @@ condition={'search': 'открыть форму'}
 r = client.get(URL, params=condition)
 
 print(r.url)
-print(r.text) # это возвращает сервер - return JsonResponse...
+print(r.text) # это возвращает сервер - return JsonResponse... 777
 
 
 
